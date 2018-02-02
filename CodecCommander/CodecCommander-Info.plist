@@ -79,6 +79,120 @@
 				<string>Disabled HDMI</string>
 				<key>1002</key>
 				<string>Disabled HDMI</string>
+				<key>10ec_0225_HDA_1028_0743</key>
+				<string>Realtek ALC295</string>
+				<key>10ec_0295_HDA_1028_0743</key>
+				<string>Realtek ALC295</string>
+				<key>10ec_0299_HDA_1028_0743</key>
+				<string>Realtek ALC295</string>
+				<key>Realtek ALC295</key>
+				<dict>
+					<key>Custom Commands</key>
+					<array>
+						<dict>
+							<key>Command</key>
+							<string>0x01970724</string>
+							<key>Comment</key>
+							<string>0x19 SET_PIN_WIDGET_CONTROL 0x24</string>
+							<key>On Init</key>
+							<false/>
+							<key>On Sleep</key>
+							<false/>
+							<key>On Wake</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<string>0x021707C0</string>
+							<key>Comment</key>
+							<string>0x21 SET_PIN_WIDGET_CONTROL 0xC0 //CTIA type ear pod @wake</string>
+							<key>On Init</key>
+							<false/>
+							<key>On Sleep</key>
+							<false/>
+							<key>On Wake</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<string>0x02170901</string>
+							<key>Comment</key>
+							<string>0x21 SET_PIN_SENSE 0x01</string>
+							<key>On Init</key>
+							<false/>
+							<key>On Sleep</key>
+							<false/>
+							<key>On Wake</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<string>0x02170883</string>
+							<key>Comment</key>
+							<string>0x21 SET_UNSOLICITED_ENABLE 0x83</string>
+							<key>On Init</key>
+							<true/>
+							<key>On Sleep</key>
+							<false/>
+							<key>On Wake</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<string>0x01970702</string>
+							<key>Comment</key>
+							<string>0x19 SET_PIN_WIDGET_CONTROL 0x02</string>
+							<key>On Init</key>
+							<false/>
+							<key>On Sleep</key>
+							<true/>
+							<key>On Wake</key>
+							<false/>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<string>0x02050036</string>
+							<key>Comment</key>
+							<string>0x20 SET_COEF_INDEX 0x36</string>
+							<key>On Init</key>
+							<true/>
+							<key>On Sleep</key>
+							<false/>
+							<key>On Wake</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<string>0x020457d7</string>
+							<key>Comment</key>
+							<string>0x20 SET_PROC_COEF 0x57d7</string>
+							<key>On Init</key>
+							<true/>
+							<key>On Sleep</key>
+							<false/>
+							<key>On Wake</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Command</key>
+							<string>0x01A70720</string>
+							<key>Comment</key>
+							<string>0x1A SET_PIN_WIDGET_CONTROL 0x20</string>
+							<key>On Init</key>
+							<false/>
+							<key>On Sleep</key>
+							<false/>
+							<key>On Wake</key>
+							<false/>
+						</dict>
+					</array>
+					<key>Perform Reset</key>
+					<true/>
+					<key>Send Delay</key>
+					<integer>10</integer>
+					<key>Sleep Nodes</key>
+					<false/>
+				</dict>
 				<key>Realtek ALC269</key>
 				<dict>
 					<key>Custom Commands</key>
